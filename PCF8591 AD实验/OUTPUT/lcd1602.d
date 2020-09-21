@@ -1,0 +1,11 @@
+..\OUTPUT\lcd1602.o: lcd1602.c
+..\OUTPUT\lcd1602.o: lcd1602.h
+..\OUTPUT\lcd1602.o: ..\CMSIS\stm32f10x.h
+..\OUTPUT\lcd1602.o: ..\CMSIS\core_cm3.h
+..\OUTPUT\lcd1602.o: D:\Keil\ARM\RV31\Inc\stdint.h
+..\OUTPUT\lcd1602.o: ..\CMSIS\system_stm32f10x.h
+..\OUTPUT\lcd1602.o: ..\USER\stm32f10x_conf.h
+..\OUTPUT\lcd1602.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\OUTPUT\lcd1602.o: ..\CMSIS\stm32f10x.h
+..\OUTPUT\lcd1602.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\OUTPUT\lcd1602.o: delay.h

@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\FWlib\inc -I..\CMSIS -I..\USER -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "..\OUTPUT\led.o" --omf_browse "..\OUTPUT\led.crf" --depend "..\OUTPUT\led.d" "led.c"

@@ -1,0 +1,10 @@
+..\OUTPUT\led.o: led.c
+..\OUTPUT\led.o: led.h
+..\OUTPUT\led.o: ..\CMSIS\stm32f10x.h
+..\OUTPUT\led.o: ..\CMSIS\core_cm3.h
+..\OUTPUT\led.o: C:\Keil\ARM\RV31\Inc\stdint.h
+..\OUTPUT\led.o: ..\CMSIS\system_stm32f10x.h
+..\OUTPUT\led.o: ..\USER\stm32f10x_conf.h
+..\OUTPUT\led.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\OUTPUT\led.o: ..\CMSIS\stm32f10x.h
+..\OUTPUT\led.o: ..\FWlib\inc\stm32f10x_rcc.h

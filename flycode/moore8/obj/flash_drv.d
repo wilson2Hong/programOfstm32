@@ -1,0 +1,11 @@
+.\obj\flash_drv.o: bk2471\drivers\flash\flash_drv.c
+.\obj\flash_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\flash_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\flash_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\flash_drv.o: bk2471\drivers\flash\..\icu\icu.h
+.\obj\flash_drv.o: bk2471\drivers\flash\..\icu\..\..\includes\types.h
+.\obj\flash_drv.o: bk2471\drivers\flash\..\icu\..\..\includes\bk2471.h
+.\obj\flash_drv.o: bk2471\drivers\flash\..\flash\flash.h
+.\obj\flash_drv.o: bk2471\drivers\flash\..\..\common\common.h
+.\obj\flash_drv.o: bk2471\drivers\flash\..\uart\uart.h
+.\obj\flash_drv.o: bk2471\drivers\flash\..\uart\..\gpio\gpio.h

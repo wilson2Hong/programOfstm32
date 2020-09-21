@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: retg AutoBVT, Microsoft, LIC=GE756-DVK34-BW42G-V1PM8-1IVFW-VG528
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARM.DLL V5.24.1
+Dialog DLL:      DARMP3.DLL 
+<h2>Project:</h2>
+D:\programOfstm32\flycode\moore8\flycold.uvproj
+Project File Date:  04/09/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'flyclod'
+compiling my_control.c...
+compiling main.c...
+app\main.c(102): warning:  #3048-D: inline assembly not permitted when generating Thumb1 code
+  		bl entry0_main
+app\main.c(102): warning:  #3042-D: detected use of ARM inline assembly in a Thumb function; automatically promoted function to ARM
+  		bl entry0_main
+app\main.c(102): warning:  #3043-D: automatic promotion of functions to ARM is deprecated; use "#pragma arm" instead
+  		bl entry0_main
+app\main.c: 3 warnings, 0 errors
+compiling common.c...
+compiling exception.c...
+bk2471\Core\exception.c(68): warning:  #3048-D: inline assembly not permitted when generating Thumb1 code
+  		bl FIQ_Exception
+bk2471\Core\exception.c(68): warning:  #3042-D: detected use of ARM inline assembly in a Thumb function; automatically promoted function to ARM
+  		bl FIQ_Exception
+bk2471\Core\exception.c(68): warning:  #3043-D: automatic promotion of functions to ARM is deprecated; use "#pragma arm" instead
+  		bl FIQ_Exception
+bk2471\Core\exception.c(77): warning:  #3048-D: inline assembly not permitted when generating Thumb1 code
+  		bl IRQ_Exception
+bk2471\Core\exception.c(77): warning:  #3042-D: detected use of ARM inline assembly in a Thumb function; automatically promoted function to ARM
+  		bl IRQ_Exception
+bk2471\Core\exception.c(77): warning:  #3043-D: automatic promotion of functions to ARM is deprecated; use "#pragma arm" instead
+  		bl IRQ_Exception
+bk2471\Core\exception.c: 6 warnings, 0 errors
+compiling flash_drv.c...
+compiling i2c_drv.c...
+compiling icu_drv.c...
+compiling rf_drv.c...
+compiling timer_drv.c...
+compiling uart_drv.c...
+compiling enter_ota.c...
+assembling Init.s...
+assembling Vectors.s...
+compiling BK_Drv_Nrf24l01.c...
+compiling BK_Drv_EEPROM.c...
+compiling BK_Drv_MPU6050.c...
+compiling BK_Motor.c...
+drivers\BK_Motor.c(43): warning:  #61-D: integer operation result is out of range
+  		
+WM_SET_DUTY(j,1,t);
+drivers\BK_Motor.c: 1 warning, 0 errors
+compiling BK_RC.c...
+compiling thread_imu.c...
+compiling board.c...
+compiling debug.c...
+linking...
+Program Size: Code=15256 RO-data=640 RW-data=128 ZI-data=2316  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\obj\bk_sizhou.bin .\obj\bk_sizhou.axf
+After Build - User command #2: BinConvert -oad obj\bk_sizhou.bin -v 0x1111 -e 00000000 00000000 00000000 00000000
+uid:0x42424242
+binary version hex:0x1111; dec:4369
+Arm Image Binary will be converted to OAD format binary file.....
+        Encrypt Seccessfully!
+        File Size: 0x92c2
+sizeof(OAD_HDR_T)  16 .
+".\obj\bk_sizhou.axf" - 0 Error(s), 10 Warning(s).
+Build Time Elapsed:  00:00:16
+</pre>
+</body>
+</html>

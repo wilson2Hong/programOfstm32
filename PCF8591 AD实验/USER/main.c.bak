@@ -1,0 +1,65 @@
+/******************** (C) COPYRIGHT 2013 CEPARK多功能开发学习板********************
+ * 文件名  ：main.c
+ * 描述    ：CPU先往24C02中写入字符串，然后读出，判断写入和读出的数据是否一致，如果
+ 			 一致，则L1一直闪烁
+ * 实验平台：CEPARK多功能开发学习板
+ * 库版本  ：ST3.5.0
+**********************************************************************************/
+
+#include "stm32f10x.h"
+#include "PCF8591.h"
+#include "delay.h"
+#include "iic.h"
+#include "lcd1602.h"
+
+
+/* 
+ * 函数名：main
+ * 描述  : 主函数
+ * 输入  ：无
+ * 输出  : 无
+ */
+int main(void)
+{  			    
+	u8 pcf8591_adchannel=0;
+	u8 ad_temp=0,ad_result1,ad_result2,ad_result3,ad_result4;
+	u16 ad_result=0;
+	
+	/* 设置系统时钟为72M */
+  	SystemInit();
+	
+  	LCD1602_GPIO_Init();
+	
+	LCD1602_Init();
+	
+  	PCF8591_Init();			//IIC初始化 
+
+	LCD1602_MoveToPosition(0,0);                 
+  	LCD1602_DisplayString("PCF8591 AD TEST");  
+  	 
+  	LCD1602_MoveToPosition(1,0);
+	LCD1602_DisplayString("AD Result:    mv");
+
+	
+										   
+	while(1)
+	{
+		pcf8591_ad_write(0x40+pcf8591_adchannel);
+    	ad_temp=pcf8591_ad_read();
+    	ad_result=(ad_temp*5000)/256;
+    	ad_result1=ad_result/1000;
+    	ad_result2=ad_result%1000/100;
+    	ad_result3=ad_result%100/10;
+    	ad_result4=ad_result%10;
+    	
+    	LCD1602_DisplayOneCharOnAddr(1,10,ad_result1+0x30);
+    	LCD1602_DisplayOneCharOnAddr(1,11,ad_result2+0x30);
+    	LCD1602_DisplayOneCharOnAddr(1,12,ad_result3+0x30);
+    	LCD1602_DisplayOneCharOnAddr(1,13,ad_result4+0x30);	
+	}
+}
+
+
+
+
+/******************* (C) COPYRIGHT 2013 CEPARK多功能开发学习板*****END OF FILE****/

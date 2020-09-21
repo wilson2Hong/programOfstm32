@@ -1,0 +1,30 @@
+Dependencies for Project 'LED(×¼È·ÑÓÊ±)', Target 'LED': (DO NOT MODIFY !)
+F (.\USER\main.c)(0x5C39E437)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\DRIVER\inc-I.\RTE\Device\STM32F103C8-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_LED\RTE_Components.h)(0x5C39E4E7)
+F (.\DRIVER\src\delay.c)(0x5C39E326)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\DRIVER\inc-I.\RTE\Device\STM32F103C8-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (.\DRIVER\inc\delay.h)(0x5C39E361)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_LED\RTE_Components.h)(0x5C39E4E7)
+F (.\DRIVER\src\led.c)(0x5C39DDC7)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\DRIVER\inc-I.\RTE\Device\STM32F103C8-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_LED\RTE_Components.h)(0x5C39E4E7)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\DRIVER\inc-I.\RTE\Device\STM32F103C8-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_LED\RTE_Components.h)(0x5C39E4E7)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\DRIVER\inc-I.\RTE\Device\STM32F103C8-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_LED\RTE_Components.h)(0x5C39E4E7)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\DRIVER\inc-I.\RTE\Device\STM32F103C8-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_LED\RTE_Components.h)(0x5C39E4E7)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5927DFA6)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x5825386C)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\Device\STM32F103C8-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x5825386C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\DRIVER\inc-I.\RTE\Device\STM32F103C8-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_LED\RTE_Components.h)(0x5C39E4E7)

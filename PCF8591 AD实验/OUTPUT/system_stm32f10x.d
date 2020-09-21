@@ -1,0 +1,9 @@
+..\OUTPUT\system_stm32f10x.o: ..\CMSIS\system_stm32f10x.c
+..\OUTPUT\system_stm32f10x.o: ..\CMSIS\stm32f10x.h
+..\OUTPUT\system_stm32f10x.o: ..\CMSIS\core_cm3.h
+..\OUTPUT\system_stm32f10x.o: D:\Keil\ARM\RV31\Inc\stdint.h
+..\OUTPUT\system_stm32f10x.o: ..\CMSIS\system_stm32f10x.h
+..\OUTPUT\system_stm32f10x.o: ..\USER\stm32f10x_conf.h
+..\OUTPUT\system_stm32f10x.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\OUTPUT\system_stm32f10x.o: ..\CMSIS\stm32f10x.h
+..\OUTPUT\system_stm32f10x.o: ..\FWlib\inc\stm32f10x_rcc.h

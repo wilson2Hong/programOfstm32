@@ -1,0 +1,12 @@
+..\OUTPUT\pcf8591.o: PCF8591.c
+..\OUTPUT\pcf8591.o: PCF8591.h
+..\OUTPUT\pcf8591.o: ..\CMSIS\stm32f10x.h
+..\OUTPUT\pcf8591.o: ..\CMSIS\core_cm3.h
+..\OUTPUT\pcf8591.o: D:\Keil\ARM\RV31\Inc\stdint.h
+..\OUTPUT\pcf8591.o: ..\CMSIS\system_stm32f10x.h
+..\OUTPUT\pcf8591.o: ..\USER\stm32f10x_conf.h
+..\OUTPUT\pcf8591.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\OUTPUT\pcf8591.o: ..\CMSIS\stm32f10x.h
+..\OUTPUT\pcf8591.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\OUTPUT\pcf8591.o: iic.h
+..\OUTPUT\pcf8591.o: delay.h

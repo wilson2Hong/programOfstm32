@@ -1,0 +1,11 @@
+..\OUTPUT\iic.o: iic.c
+..\OUTPUT\iic.o: iic.h
+..\OUTPUT\iic.o: ..\CMSIS\stm32f10x.h
+..\OUTPUT\iic.o: ..\CMSIS\core_cm3.h
+..\OUTPUT\iic.o: D:\Keil\ARM\RV31\Inc\stdint.h
+..\OUTPUT\iic.o: ..\CMSIS\system_stm32f10x.h
+..\OUTPUT\iic.o: ..\USER\stm32f10x_conf.h
+..\OUTPUT\iic.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\OUTPUT\iic.o: ..\CMSIS\stm32f10x.h
+..\OUTPUT\iic.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\OUTPUT\iic.o: delay.h

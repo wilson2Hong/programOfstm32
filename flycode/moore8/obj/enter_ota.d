@@ -1,0 +1,9 @@
+.\obj\enter_ota.o: bk2471\drivers\enter_ota\enter_ota.c
+.\obj\enter_ota.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\enter_ota.o: bk2471\drivers\enter_ota\..\wdt\wdt.h
+.\obj\enter_ota.o: bk2471\drivers\enter_ota\..\wdt\..\..\includes\types.h
+.\obj\enter_ota.o: bk2471\drivers\enter_ota\..\wdt\..\..\includes\bk2471.h
+.\obj\enter_ota.o: bk2471\drivers\enter_ota\..\wdt\..\icu\icu.h
+.\obj\enter_ota.o: bk2471\drivers\enter_ota\..\flash\flash.h
+.\obj\enter_ota.o: bk2471\drivers\enter_ota\..\uart\uart.h
+.\obj\enter_ota.o: bk2471\drivers\enter_ota\..\uart\..\gpio\gpio.h

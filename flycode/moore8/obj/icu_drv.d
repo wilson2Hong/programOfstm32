@@ -1,0 +1,9 @@
+.\obj\icu_drv.o: bk2471\drivers\icu\icu_drv.c
+.\obj\icu_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\icu_drv.o: bk2471\drivers\icu\..\gpio\gpio.h
+.\obj\icu_drv.o: bk2471\drivers\icu\..\gpio\..\..\includes\types.h
+.\obj\icu_drv.o: bk2471\drivers\icu\..\gpio\..\..\includes\bk2471.h
+.\obj\icu_drv.o: bk2471\drivers\icu\..\icu\icu.h
+.\obj\icu_drv.o: bk2471\drivers\icu\..\flash\flash.h
+.\obj\icu_drv.o: bk2471\drivers\icu\..\xvr\XVR_3231S.h
+.\obj\icu_drv.o: bk2471\drivers\icu\..\..\common\common.h

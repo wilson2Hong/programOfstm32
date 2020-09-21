@@ -1,0 +1,26 @@
+--cpu ARM9E
+".\obj\main.o"
+".\obj\my_control.o"
+".\obj\common.o"
+".\obj\exception.o"
+".\obj\flash_drv.o"
+".\obj\i2c_drv.o"
+".\obj\icu_drv.o"
+".\obj\rf_drv.o"
+".\obj\timer_drv.o"
+".\obj\uart_drv.o"
+".\obj\enter_ota.o"
+".\obj\init.o"
+".\obj\vectors.o"
+".\obj\bk_drv_nrf24l01.o"
+".\obj\bk_drv_eeprom.o"
+".\obj\bk_drv_mpu6050.o"
+".\obj\bk_motor.o"
+".\obj\bk_rc.o"
+".\obj\thread_imu.o"
+".\obj\board.o"
+".\obj\debug.o"
+--strict --scatter ".\bk2471\beken.txt"
+--entry "Vectors" --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\obj\bk_sizhou.map" -o .\obj\bk_sizhou.axf

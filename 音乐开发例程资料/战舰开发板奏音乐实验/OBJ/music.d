@@ -1,0 +1,14 @@
+..\OBJ\music.o: music.c
+..\OBJ\music.o: music.h
+..\OBJ\music.o: ..\SYSTEM\sys\sys.h
+..\OBJ\music.o: ..\USER\stm32f10x.h
+..\OBJ\music.o: ..\CORE\core_cm3.h
+..\OBJ\music.o: D:\MDK470\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\music.o: ..\USER\system_stm32f10x.h
+..\OBJ\music.o: ..\USER\stm32f10x_conf.h
+..\OBJ\music.o: ..\STM32_FWLIB\inc\stm32f10x_gpio.h
+..\OBJ\music.o: ..\USER\stm32f10x.h
+..\OBJ\music.o: ..\STM32_FWLIB\inc\stm32f10x_rcc.h
+..\OBJ\music.o: ..\STM32_FWLIB\inc\stm32f10x_tim.h
+..\OBJ\music.o: ..\STM32_FWLIB\inc\stm32f10x_usart.h
+..\OBJ\music.o: ..\STM32_FWLIB\inc\misc.h

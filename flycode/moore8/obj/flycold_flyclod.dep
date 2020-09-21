@@ -1,0 +1,303 @@
+Dependencies for Project 'flycold', Target 'flyclod': (DO NOT MODIFY !)
+F (.\app\main.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (.\app\include\BK_data_init.h)(0x5C13028C)
+I (.\drivers\BK_RC.h)(0x5C12FDEC)
+I (.\app\include\BK_Config.h)(0x5C12FDEC)
+I (.\addon\board.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_LED.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\includes\types.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\includes\bk2471.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\gpio\gpio.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_Nrf24l01.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_PWM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\pwm.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\icu\icu.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\bt_3ds\bt_3ds.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_EEPROM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\flash\flash.h)(0x5C12FDEC)
+I (.\app\include\BK_IMU.h)(0x5C12FDEC)
+I (.\drivers\BK_Motor.h)(0x5C12FDEC)
+I (.\drivers\BK_adc.h)(0x5C12FDEC)
+I (.\addon\debug.h)(0x5C12FDEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\addon\..\bk2471\drivers\uart\uart.h)(0x5C12FDEC)
+I (.\addon\..\bk2471\drivers\rf24\bk24.h)(0x5C12FDEC)
+I (app\..\drivers\thread_imu.h)(0x5C12FDEC)
+I (app\..\bk2471\drivers\timer\timer.h)(0x5C12FDEC)
+F (.\app\my_control.c)(0x5C130E59)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\my_control.o --omf_browse .\obj\my_control.crf --depend .\obj\my_control.d)
+I (.\drivers\BK_RC.h)(0x5C12FDEC)
+I (.\app\include\BK_Config.h)(0x5C12FDEC)
+I (.\addon\board.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_LED.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\includes\types.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\includes\bk2471.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\gpio\gpio.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_Nrf24l01.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_PWM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\pwm.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\icu\icu.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\bt_3ds\bt_3ds.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_EEPROM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\flash\flash.h)(0x5C12FDEC)
+I (.\app\include\BK_IMU.h)(0x5C12FDEC)
+I (.\drivers\BK_Motor.h)(0x5C12FDEC)
+I (.\app\include\BK_data_init.h)(0x5C13028C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+F (.\bk2471\common\common.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\common.o --omf_browse .\obj\common.crf --depend .\obj\common.d)
+I (bk2471\common\..\includes\types.h)(0x5C12FDEC)
+I (bk2471\common\..\includes\bk2471.h)(0x5C12FDEC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\bk2471\Core\exception.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\exception.o --omf_browse .\obj\exception.crf --depend .\obj\exception.d)
+I (bk2471\Core\..\drivers\gpio\gpio.h)(0x5C12FDEC)
+I (bk2471\Core\..\drivers\gpio\..\..\includes\types.h)(0x5C12FDEC)
+I (bk2471\Core\..\drivers\gpio\..\..\includes\bk2471.h)(0x5C12FDEC)
+I (bk2471\Core\..\drivers\icu\icu.h)(0x5C12FDEC)
+I (bk2471\Core\..\drivers\flash\flash.h)(0x5C12FDEC)
+F (.\bk2471\drivers\flash\flash_drv.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\flash_drv.o --omf_browse .\obj\flash_drv.crf --depend .\obj\flash_drv.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (bk2471\drivers\flash\..\icu\icu.h)(0x5C12FDEC)
+I (bk2471\drivers\flash\..\icu\..\..\includes\types.h)(0x5C12FDEC)
+I (bk2471\drivers\flash\..\icu\..\..\includes\bk2471.h)(0x5C12FDEC)
+I (bk2471\drivers\flash\..\flash\flash.h)(0x5C12FDEC)
+I (bk2471\drivers\flash\..\..\common\common.h)(0x5C12FDEC)
+I (bk2471\drivers\flash\..\uart\uart.h)(0x5C12FDEC)
+I (bk2471\drivers\flash\..\uart\..\gpio\gpio.h)(0x5C12FDEC)
+F (.\bk2471\drivers\i2c\i2c_drv.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\i2c_drv.o --omf_browse .\obj\i2c_drv.crf --depend .\obj\i2c_drv.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (bk2471\drivers\i2c\i2c0.h)(0x5C12FDEC)
+I (bk2471\drivers\i2c\..\..\includes\types.h)(0x5C12FDEC)
+I (bk2471\drivers\i2c\..\..\includes\bk2471.h)(0x5C12FDEC)
+I (bk2471\drivers\i2c\..\gpio\gpio.h)(0x5C12FDEC)
+I (bk2471\drivers\i2c\..\icu\icu.h)(0x5C12FDEC)
+F (.\bk2471\drivers\icu\icu_drv.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\icu_drv.o --omf_browse .\obj\icu_drv.crf --depend .\obj\icu_drv.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (bk2471\drivers\icu\..\gpio\gpio.h)(0x5C12FDEC)
+I (bk2471\drivers\icu\..\gpio\..\..\includes\types.h)(0x5C12FDEC)
+I (bk2471\drivers\icu\..\gpio\..\..\includes\bk2471.h)(0x5C12FDEC)
+I (bk2471\drivers\icu\..\icu\icu.h)(0x5C12FDEC)
+I (bk2471\drivers\icu\..\flash\flash.h)(0x5C12FDEC)
+I (bk2471\drivers\icu\..\xvr\XVR_3231S.h)(0x5C12FDEC)
+I (bk2471\drivers\icu\..\..\common\common.h)(0x5C12FDEC)
+F (.\bk2471\drivers\rf24\rf_drv.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\rf_drv.o --omf_browse .\obj\rf_drv.crf --depend .\obj\rf_drv.d)
+I (bk2471\drivers\rf24\bk24.h)(0x5C12FDEC)
+I (bk2471\drivers\rf24\..\..\includes\types.h)(0x5C12FDEC)
+I (bk2471\drivers\rf24\..\..\includes\bk2471.h)(0x5C12FDEC)
+I (bk2471\drivers\rf24\..\gpio\gpio.h)(0x5C12FDEC)
+I (bk2471\drivers\rf24\..\icu\icu.h)(0x5C12FDEC)
+I (bk2471\drivers\rf24\..\xvr\XVR_3231S.h)(0x5C12FDEC)
+I (bk2471\drivers\rf24\..\timer\timer.h)(0x5C12FDEC)
+I (bk2471\drivers\rf24\..\..\common\common.h)(0x5C12FDEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\bk2471\drivers\timer\timer_drv.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\timer_drv.o --omf_browse .\obj\timer_drv.crf --depend .\obj\timer_drv.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (bk2471\drivers\timer\..\icu\icu.h)(0x5C12FDEC)
+I (bk2471\drivers\timer\..\icu\..\..\includes\types.h)(0x5C12FDEC)
+I (bk2471\drivers\timer\..\icu\..\..\includes\bk2471.h)(0x5C12FDEC)
+I (bk2471\drivers\timer\..\timer\timer.h)(0x5C12FDEC)
+I (bk2471\drivers\timer\..\gpio\gpio.h)(0x5C12FDEC)
+F (.\bk2471\drivers\uart\uart_drv.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\uart_drv.o --omf_browse .\obj\uart_drv.crf --depend .\obj\uart_drv.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (bk2471\drivers\uart\uart.h)(0x5C12FDEC)
+I (bk2471\drivers\uart\..\..\includes\types.h)(0x5C12FDEC)
+I (bk2471\drivers\uart\..\..\includes\bk2471.h)(0x5C12FDEC)
+I (bk2471\drivers\uart\..\gpio\gpio.h)(0x5C12FDEC)
+I (bk2471\drivers\uart\..\icu\icu.h)(0x5C12FDEC)
+F (.\bk2471\drivers\enter_ota\enter_ota.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\enter_ota.o --omf_browse .\obj\enter_ota.crf --depend .\obj\enter_ota.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (bk2471\drivers\enter_ota\..\wdt\wdt.h)(0x5C12FDEC)
+I (bk2471\drivers\enter_ota\..\wdt\..\..\includes\types.h)(0x5C12FDEC)
+I (bk2471\drivers\enter_ota\..\wdt\..\..\includes\bk2471.h)(0x5C12FDEC)
+I (bk2471\drivers\enter_ota\..\wdt\..\icu\icu.h)(0x5C12FDEC)
+I (bk2471\drivers\enter_ota\..\flash\flash.h)(0x5C12FDEC)
+I (bk2471\drivers\enter_ota\..\uart\uart.h)(0x5C12FDEC)
+I (bk2471\drivers\enter_ota\..\uart\..\gpio\gpio.h)(0x5C12FDEC)
+F (.\bk2471\startup\Init.s)(0x5C12FDEC)(--cpu ARM9E -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524"-o .\obj\init.o --depend .\obj\init.d)
+F (.\bk2471\startup\Vectors.s)(0x5C12FDEC)(--cpu ARM9E -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524"-o .\obj\vectors.o --depend .\obj\vectors.d)
+F (.\drivers\BK_Drv_Nrf24l01.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\bk_drv_nrf24l01.o --omf_browse .\obj\bk_drv_nrf24l01.crf --depend .\obj\bk_drv_nrf24l01.d)
+I (drivers\BK_Drv_Nrf24l01.h)(0x5C12FDEC)
+I (drivers\..\bk2471\includes\types.h)(0x5C12FDEC)
+I (drivers\..\bk2471\includes\bk2471.h)(0x5C12FDEC)
+I (drivers\..\bk2471\drivers\rf24\bk24.h)(0x5C12FDEC)
+I (drivers\BK_RC.h)(0x5C12FDEC)
+I (.\app\include\BK_Config.h)(0x5C12FDEC)
+I (.\addon\board.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_LED.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\gpio\gpio.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_PWM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\pwm.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\icu\icu.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\bt_3ds\bt_3ds.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_EEPROM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\flash\flash.h)(0x5C12FDEC)
+I (.\app\include\BK_IMU.h)(0x5C12FDEC)
+I (.\drivers\BK_Motor.h)(0x5C12FDEC)
+I (.\drivers\BK_RC.h)(0x5C12FDEC)
+F (.\drivers\BK_Drv_EEPROM.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\bk_drv_eeprom.o --omf_browse .\obj\bk_drv_eeprom.crf --depend .\obj\bk_drv_eeprom.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\addon\board.h)(0x5C12FDEC)
+I (.\app\include\BK_Config.h)(0x5C12FDEC)
+I (.\app\include\BK_IMU.h)(0x5C12FDEC)
+I (.\Math\..\bk2471\includes\types.h)(0x5C12FDEC)
+I (.\Math\..\bk2471\includes\bk2471.h)(0x5C12FDEC)
+I (.\drivers\BK_Motor.h)(0x5C12FDEC)
+I (.\drivers\BK_RC.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_LED.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\gpio\gpio.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_Nrf24l01.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_PWM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\pwm.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\icu\icu.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\bt_3ds\bt_3ds.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_EEPROM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\flash\flash.h)(0x5C12FDEC)
+I (drivers\..\bk2471\drivers\uart\uart.h)(0x5C12FDEC)
+F (.\drivers\BK_Drv_MPU6050.c)(0x5C130C7A)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\bk_drv_mpu6050.o --omf_browse .\obj\bk_drv_mpu6050.crf --depend .\obj\bk_drv_mpu6050.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (drivers\..\bk2471\includes\types.h)(0x5C12FDEC)
+I (drivers\..\bk2471\includes\bk2471.h)(0x5C12FDEC)
+I (drivers\..\bk2471\common\common.h)(0x5C12FDEC)
+I (drivers\..\bk2471\drivers\i2c\i2c0.h)(0x5C12FDEC)
+I (.\app\include\BK_data_init.h)(0x5C13028C)
+I (drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\addon\board.h)(0x5C12FDEC)
+I (.\app\include\BK_Config.h)(0x5C12FDEC)
+I (.\app\include\BK_IMU.h)(0x5C12FDEC)
+I (.\drivers\BK_Motor.h)(0x5C12FDEC)
+I (.\drivers\BK_RC.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_LED.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\gpio\gpio.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_Nrf24l01.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_PWM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\pwm.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\icu\icu.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\bt_3ds\bt_3ds.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_EEPROM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\flash\flash.h)(0x5C12FDEC)
+F (.\drivers\BK_Motor.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\bk_motor.o --omf_browse .\obj\bk_motor.crf --depend .\obj\bk_motor.d)
+I (drivers\BK_Motor.h)(0x5C12FDEC)
+I (.\app\include\BK_Config.h)(0x5C12FDEC)
+I (.\addon\board.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_LED.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\includes\types.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\includes\bk2471.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\gpio\gpio.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_Nrf24l01.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_PWM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\pwm.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\icu\icu.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\bt_3ds\bt_3ds.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_EEPROM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\flash\flash.h)(0x5C12FDEC)
+I (.\app\include\BK_IMU.h)(0x5C12FDEC)
+I (.\drivers\BK_Motor.h)(0x5C12FDEC)
+I (.\drivers\BK_RC.h)(0x5C12FDEC)
+F (.\drivers\BK_RC.c)(0x5C130C7A)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\bk_rc.o --omf_browse .\obj\bk_rc.crf --depend .\obj\bk_rc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (drivers\BK_RC.h)(0x5C12FDEC)
+I (.\app\include\BK_Config.h)(0x5C12FDEC)
+I (.\addon\board.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_LED.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\includes\types.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\includes\bk2471.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\gpio\gpio.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_Nrf24l01.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_PWM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\pwm.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\icu\icu.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\bt_3ds\bt_3ds.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_EEPROM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\flash\flash.h)(0x5C12FDEC)
+I (.\app\include\BK_IMU.h)(0x5C12FDEC)
+I (.\drivers\BK_Motor.h)(0x5C12FDEC)
+I (.\drivers\BK_RC.h)(0x5C12FDEC)
+I (.\app\include\BK_data_init.h)(0x5C13028C)
+I (.\addon\debug.h)(0x5C12FDEC)
+I (.\addon\..\bk2471\drivers\uart\uart.h)(0x5C12FDEC)
+I (.\addon\..\bk2471\drivers\rf24\bk24.h)(0x5C12FDEC)
+I (drivers\..\drivers\thread_imu.h)(0x5C12FDEC)
+F (.\drivers\thread_imu.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\thread_imu.o --omf_browse .\obj\thread_imu.crf --depend .\obj\thread_imu.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\app\include\BK_Config.h)(0x5C12FDEC)
+I (.\addon\board.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_LED.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\includes\types.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\includes\bk2471.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\gpio\gpio.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_Nrf24l01.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_PWM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\pwm.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\icu\icu.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\bt_3ds\bt_3ds.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_EEPROM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\flash\flash.h)(0x5C12FDEC)
+I (.\app\include\BK_IMU.h)(0x5C12FDEC)
+I (.\drivers\BK_Motor.h)(0x5C12FDEC)
+I (.\drivers\BK_RC.h)(0x5C12FDEC)
+I (drivers\..\bk2471\drivers\timer\timer.h)(0x5C12FDEC)
+I (drivers\..\bk2471\drivers\i2c\i2c0.h)(0x5C12FDEC)
+I (drivers\..\bk2471\drivers\uart\uart.h)(0x5C12FDEC)
+I (drivers\..\bk2471\common\common.h)(0x5C12FDEC)
+I (.\app\include\BK_data_init.h)(0x5C13028C)
+F (.\addon\board.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\board.o --omf_browse .\obj\board.crf --depend .\obj\board.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (addon\..\bk2471\includes\types.h)(0x5C12FDEC)
+I (addon\..\bk2471\includes\bk2471.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\timer\timer.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\timer\..\icu\icu.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\flash\flash.h)(0x5C12FDEC)
+I (addon\..\bk2471\common\common.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\i2c\i2c0.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\uart\uart.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\uart\..\gpio\gpio.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\rf24\bk24.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\adc\adc.h)(0x5C12FDEC)
+I (addon\board.h)(0x5C12FDEC)
+I (.\app\include\BK_Config.h)(0x5C12FDEC)
+I (.\addon\board.h)(0x5C12FDEC)
+I (.\app\include\BK_IMU.h)(0x5C12FDEC)
+I (.\drivers\BK_Motor.h)(0x5C12FDEC)
+I (.\drivers\BK_RC.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_LED.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_Nrf24l01.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_PWM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\pwm.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\bt_3ds\bt_3ds.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_EEPROM.h)(0x5C12FDEC)
+F (.\addon\debug.c)(0x5C12FDEC)(--thumb -c --cpu ARM9E -g -O0 --apcs=interwork -I .\Math -I .\drivers -I .\app\include -I .\addon --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGYRO_MPU6050-o .\obj\debug.o --omf_browse .\obj\debug.crf --depend .\obj\debug.d)
+I (addon\debug.h)(0x5C12FDEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (addon\..\bk2471\drivers\uart\uart.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\uart\..\..\includes\types.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\uart\..\..\includes\bk2471.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\uart\..\gpio\gpio.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\uart\..\icu\icu.h)(0x5C12FDEC)
+I (addon\..\bk2471\drivers\rf24\bk24.h)(0x5C12FDEC)
+I (.\app\include\BK_data_init.h)(0x5C13028C)
+I (.\drivers\BK_RC.h)(0x5C12FDEC)
+I (.\app\include\BK_Config.h)(0x5C12FDEC)
+I (.\addon\board.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_LED.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_MPU6050.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_Nrf24l01.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_PWM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\pwm.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\pwm\..\bt_3ds\bt_3ds.h)(0x5C12FDEC)
+I (.\drivers\BK_Drv_EEPROM.h)(0x5C12FDEC)
+I (.\drivers\..\bk2471\drivers\flash\flash.h)(0x5C12FDEC)
+I (.\app\include\BK_IMU.h)(0x5C12FDEC)
+I (.\drivers\BK_Motor.h)(0x5C12FDEC)

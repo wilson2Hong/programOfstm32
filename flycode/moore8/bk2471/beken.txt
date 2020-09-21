@@ -1,0 +1,47 @@
+ROOT  0x00003C60 ;PRO ENTRTY = 0x3C60  | FLASH ADDR = ( 0X4026 )0X3C60 * 34 / 32  
+
+{
+	BOOT 0x00003C60
+	{
+      vectors.o(Startup, +FIRST)
+  ;    *(+RO)
+	}
+
+	;if u want to modify the base address of section, you may pay attention to
+	PRIMARY_START 0x00004B80 FIXED EMPTY 0x20; 0x00004BA0
+
+	{
+	}
+	FAST_CALL_SEG 0x00004BA0 FIXED ALIGNALL 32;0x00004BA0
+	{ ;Do not change the section order, for update image;
+	* (aentry0)             ;0x00004BA0  main entry
+	* (aentry1)             ;0x00004BC0  FIQ  entry
+	* (aentry2)             ;0x00004BE0  irq  entry
+	* (fastcall)            ;0x00004C00  
+	}
+	FLASH  +0 ALIGNALL 32
+	{
+	*.o(+RO)
+	}
+	;if u want to modify the base address of section, you may pay attention toupdate_image.h
+	PEND_FOR_FLASH 0x00400000 EMPTY 0x20
+
+	{
+	}
+	RAM 0x00400020 NOCOMPRESS
+	{
+	*(+RW,+ZI)
+	}
+
+
+}
+
+;DATA  0x00400000 0x003FFFFF
+;{
+;   RAM   0x00400000 0x00003FFF
+;   {
+;      *(+RW, +ZI)
+;   }
+;}
+
+
